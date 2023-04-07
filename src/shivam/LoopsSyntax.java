@@ -1,13 +1,25 @@
 package shivam;
 
 import java.util.Scanner;
-
 public class LoopsSyntax {
+
+
+
+
+
+    //Take input from user and print all nos below it using while loop.
+    /*
     public static void main(String[] args) {
-
-
-
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter Number:");
+        int num = input.nextInt();
+        int num1 = num;
+        while (num>=1) {
+            num-= 1;
+            System.out.println(num);
+        }
     }
+     */
 
 
 
