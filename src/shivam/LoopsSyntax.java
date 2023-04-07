@@ -19,7 +19,6 @@ public class LoopsSyntax {
      */
 
 
-
     //Take input from user and print next 5 integers
 /*
     public static void main(String[] args) {
@@ -33,7 +32,6 @@ public class LoopsSyntax {
         }
     }
  */
-
 
 
 //Take 3 inputs from user and print max and min number.
@@ -73,6 +71,56 @@ public class LoopsSyntax {
             System.out.println("Uppercase");
         }
     }
+     */
+
+
+// Take input and show that Fibonacci number
+    /*
+public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
+    int n = in.nextInt();
+    int a = 0;
+    int b = 1;
+    int count = 2;
+    while (count <= n) {
+        int temp = b;
+        b = b+a;
+        a = temp;
+        count++;
+    }
+    System.out.println(b);
+}
+     */
+
+
+    // User will give a number and then will ask for how many times a digit occurred in that number.
+
+
+    /*
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter your number: ");
+        int num = in.nextInt();
+        System.out.print("Enter the digit you want to count in that number: ");
+        int dig = in.nextInt();
+        int count = 0;
+
+        while (num > 0) {
+            if (num % 10 == dig) {
+                count++;
+                num = num / 10;
+            }
+            if (num % 10 != dig) {
+                num = num / 10;
+            }
+        }
+        System.out.println("The number of times " + dig + " occurs is "  + count);
+       }
+
+
+           // Although this code can handle only single digit as dig as of now!
+
+
      */
 
 
