@@ -1,4 +1,4 @@
-package shivam;
+package shivam.linearSearch;
 
 // check if any character is present in a string. Return True or False.
 
