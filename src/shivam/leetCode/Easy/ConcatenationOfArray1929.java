@@ -1,4 +1,4 @@
-package shivam.leetCode;
+package shivam.leetCode.Easy;
 
 // Easy
 // https://leetcode.com/problems/concatenation-of-array/

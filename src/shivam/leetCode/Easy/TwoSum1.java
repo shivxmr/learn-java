@@ -1,4 +1,4 @@
-package shivam.leetCode;
+package shivam.leetCode.Easy;
 
 // https://leetcode.com/problems/two-sum/description/
 

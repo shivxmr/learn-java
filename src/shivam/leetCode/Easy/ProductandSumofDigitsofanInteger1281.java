@@ -1,4 +1,4 @@
-package shivam.leetCode;
+package shivam.leetCode.Easy;
 
 // Very Easy
 // https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
