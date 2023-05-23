@@ -22,7 +22,6 @@ public class RunningSumof1dArray1480 {
             else sum1[i] = nums[i] + sum1[i-1];
             i = i+1;
         }
-
         return sum1;
     }
 
