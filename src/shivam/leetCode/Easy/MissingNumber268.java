@@ -34,10 +34,8 @@ public class MissingNumber268 {
                 return index;
             }
         }
-
         return nums.length;
     }
-
     static void swap(int[] nums, int first, int second) {
         int temp = nums[first];
         nums[first] = nums[second];
