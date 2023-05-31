@@ -1,5 +1,7 @@
 package shivam.leetCode.Easy;
 
+//https://leetcode.com/problems/sqrtx/
+
 public class sqrt_x_69 {
     public static void main(String[] args) {
         System.out.println(sqrt(1225));
